@@ -48,9 +48,30 @@ button  {
     padding: 12px;
     height: 50px;
     width: 100px;
+    background-color: #3882F6;
+    border-radius: 15px;
 }
 
 img {
     margin-top: 50px;
 }
 
+.div2 {
+    text-align: center;
+}
+.seconddiv {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.media  {
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+}
+
+.media img {
+    border: 4px #3882F6 solid;
+    border-radius: 12px;
+}
