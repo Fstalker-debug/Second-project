@@ -1,0 +1,56 @@
+header {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    color: white;
+    padding: 15px 200px;
+}
+
+.firstline {
+    display: flex;
+    justify-content: flex-end;
+}
+
+h3 {
+    margin-right: auto;
+}
+
+.left-header {
+   display: flex;
+    gap: 15px;
+    /* justify-content: space-between; */
+}
+
+.lower-header {
+    display: flex;
+    gap: 52%;
+}
+.lower-right-header {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin-bottom: 100px;   
+}
+
+.lower-right-header h1  {
+    margin-bottom: 0px;
+}
+.lower-right-header p {
+    margin-top: 0px;
+}
+
+.button {
+ align-self: flex-start;
+}
+
+button  {
+    margin: 0px;
+    padding: 12px;
+    height: 50px;
+    width: 100px;
+}
+
+img {
+    margin-top: 50px;
+}
+
